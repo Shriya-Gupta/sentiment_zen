@@ -3,51 +3,50 @@
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #1a1a1a; /* Dark background color */
-    color: #ffffff; /* Text color */
-    text-align: center; /* Center all text */
+    background-color: #1a1a1a; 
+    color: #ffffff; 
+    text-align: center; 
   }
   
-  /* Common styles for different sections */
   .section {
     padding: 50px;
-    margin: 20px auto; /* Center horizontally */
-    border: 2px solid #4caf50; /* Neon green border */
+    margin: 20px auto; 
+    border: 2px solid #4caf50;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(76, 175, 80, 0.3); /* Neon green shadow */
+    box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
   }
   
   h1, h2 {
-    color: #4caf50; /* Neon green heading color */
+    color: #4caf50; 
   }
   
   .options {
     display: flex;
-    justify-content: center; /* Center options horizontally */
+    justify-content: center; 
     margin-top: 20px;
   }
   
   .option {
     cursor: pointer;
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: #1a1a1a; 
     padding: 20px;
-    margin: 100px 50px; /* Add margin between options */
+    margin: 100px 50px; 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.594); /* White shadow for contrast */
-    transition: background-color 0.3s; /* Add transition for smooth effect */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.594); 
+    transition: background-color 0.3s;
   }
   
   .option a {
-    text-decoration: none !important;/* Remove underline for anchor tags */
+    text-decoration: none !important;
   }
 
   .option p {
-    color: #4caf50; /* Neon green color for the text */
-    transition: color 0.3s; /* Add transition for smooth color change */
+    color: #4caf50; 
+    transition: color 0.3s;
   }
   
   .option:hover p {
-    color: #ffffff; /* White color on hover */
+    color: #ffffff; 
   }
 
   .option:hover {
@@ -62,28 +61,28 @@
   
   /* Text Input Page */
   .text-input-page {
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: #1a1a1a; 
   }
   
   #chat-container {
     max-width: 400px;
     margin: 50px auto;
     padding: 10px;
-    background-color: #333333; /* Slightly lighter dark background color */
-    border: 1px solid #4caf50; /* Neon green border */
+    background-color: #333333; 
+    border: 1px solid #4caf50; 
     border-radius: 5px;
     overflow-y: auto;
     max-height: 200px;
-    color: #ffffff; /* Text color */
+    color: #ffffff;
   }
   
   textarea {
     width: 70%;
     height: 200px;
     margin-bottom: 30px;
-    background-color: #333333; /* Slightly lighter dark background color */
-    color: #ffffff; /* Text color */
-    border: 1px solid #4caf50; /* Neon green border */
+    background-color: #333333; 
+    color: #ffffff; 
+    border: 1px solid #4caf50;
   }
   
   button {
@@ -102,7 +101,7 @@
   
   /* Speech Input Page */
   .speech-input-page {
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: #1a1a1a;
   }
 
   button:hover {
@@ -111,6 +110,6 @@
   
   #transcription {
     margin-top: 30px;
-    color: #ffffff; /* Text color */
+    color: #ffffff; 
   }
   
